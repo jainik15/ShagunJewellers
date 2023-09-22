@@ -1,0 +1,35 @@
+.shagun {
+  
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  color: #706e6f;
+}
+
+.shagun::before, .shagun::after {
+  flex: 1;
+  content: '';
+  padding: 30px;
+  margin: 15px;
+  
+  
+}
+
+.products {
+  
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  color: #706e6f;
+  
+}
+
+.products::before, .products::after {
+  flex: 1;
+  content: '';
+  padding: 25px;
+  margin: 6px;
+  
+  
+  
+}

@@ -1,0 +1,15 @@
+.divider {
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  color: #45152d;
+  
+}
+
+.divider::before, .divider::after {
+  flex: 1;
+  content: '';
+  padding: 6px;
+  background-color: #45152d;
+  margin: 10px;
+}
